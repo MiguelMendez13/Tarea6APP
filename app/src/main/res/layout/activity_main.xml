@@ -4,4 +4,102 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"/>
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="322dp"
+        android:layout_height="666dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="JSON a Texto"
+            android:textSize="48sp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Texto:"
+            android:textSize="60sp" />
+
+        <EditText
+            android:id="@+id/editTXT"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/boton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Button" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nombre:"
+            android:textSize="34sp" />
+
+        <TextView
+            android:id="@+id/nombreTXT"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="------------------"
+            android:textSize="34sp" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Color Favorito:"
+            android:textSize="34sp" />
+
+        <TextView
+            android:id="@+id/colorTXT"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="------------------"
+            android:textSize="34sp" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Comida Favorito:"
+            android:textSize="34sp" />
+
+        <TextView
+            android:id="@+id/comidaTXT"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="------------------"
+            android:textSize="34sp" />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Numero Favorito:"
+            android:textSize="34sp" />
+
+        <TextView
+            android:id="@+id/numeroTXT"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="------------------"
+            android:textSize="34sp" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
